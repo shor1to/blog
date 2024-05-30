@@ -21,5 +21,4 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Создание навигационных ссылок
     createPagination(pagination, currentPage, paginationContainer);
-
 });

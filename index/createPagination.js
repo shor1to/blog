@@ -1,5 +1,5 @@
-export function createPagination(pagination) {
-    const paginationContainer = document.getElementById('pagination');
+export function createPagination(pagination, container) {
+    const paginationContainer = container; 
     const { pages: totalPageCount, page: activePage } = pagination;
 
     const createPageLink = (pageNumber, isActive = false) => {
